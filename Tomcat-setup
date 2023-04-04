@@ -1,0 +1,24 @@
+How to download Tomcat?
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.72/bin/apache-tomcat-9.0.72.tar.gz
+
+ll
+tar -zxvf file_name
+go to apachefolder
+cd file_name
+ll
+
+vim webapps/manager/META-INF/context.xml        ......... delete line 21 & 22
+
+to login tomcat create pass
+
+vim conf/tomcat-user.xml                go to bottom 
+
+to start tomcat
+cd bin/
+ll
+./startup.sh
+
+How to connect Tomcat?
+public ip:8080
+
+
